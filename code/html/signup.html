@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="../css/signup.css">
+</head>
+<body>
+    <section>
+        <div class="login-box">
+            <form action="#">
+                <h1>Signup</h1>
+                <div class="input-box">
+                    <span class="icon"><box-icon name='envelope' color="white"></box-icon></span>
+                    <input type="email" id="Signup-Email" autocomplete="off" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><box-icon name='user' color="white"></box-icon></span>
+                    <input type="text" id="Signup-Username" autocomplete="off" required>
+                    <label>Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><box-icon name='lock-alt' color="white"></box-icon></span>
+                    <input type="password" id="Signup-Password" required>
+                    <label>Password</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><box-icon name='lock' color="white"></box-icon></box-icon></span>
+                    <input type="password" id="Confirm-Signup-Password" required>
+                    <label>Confirm Password</label>
+                </div>
+                <button type="submit" id="Signup-Button">Signup</button>
+                <div class="register-link">
+                    <p>Already have an account? <a href="../html/login.html">Login</a></p>
+                </div>
+            </form>
+        </div>
+    </section>
+    <script src="../js/signup.js"></script>
+</body>
+</html>

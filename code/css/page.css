@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background: url("https://wallpapers.com/images/high/blue-yellow-hd-light-tl5ag0cu0k0ijjak.webp") no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation: a 5s linear infinite;
+}
+@keyframes a {
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+section div {
+    display: flex;
+    justify-content: space-between; /* Ensures spacing */
+    align-items: center;
+    padding: 30px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+section button {
+    position: absolute;
+    left: 2vw;
+    top: 2vh;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    backdrop-filter: blur(10px);
+}
+section button:hover {
+    background: rgba(255, 255, 255, 0.6);
+    transform: scale(1.05);
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <section>
+        <div class="login-box">
+            <form action="#">
+                <h1>Login</h1>
+                <div class="input-box">
+                    <span class="icon"><box-icon name='envelope' color="white"></box-icon></span>
+                    <input type="email" id="Login-Email"  autocomplete="off" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><box-icon name='lock-alt' color="white"></box-icon></span>
+                    <input type="password" id="Login-Password"  autocomplete="off" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forget">
+                    <label><input type="checkbox" id="rem">Remember me</label>
+                    <a href="#">Forgot Password</a>
+                </div>
+                <button type="submit" id="Login-Button">Login</button>
+                <div class="register-link">
+                    <p>Don't have an account? <a href="../html/signup.html">Signup</a></p>
+                </div>
+            </form>
+        </div>
+    </section>
+    <script src="../js/login.js"></script>
+</body>
+</html>
