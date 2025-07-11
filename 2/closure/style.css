@@ -1,0 +1,27 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 40vh;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+.holder{
+    text-align: center;
+}
+button{
+    border: 2px solid black;
+    padding: 3vw;
+    font-size: larger;
+}
+button:hover{
+    background-color: rgb(170, 215, 255);
+}

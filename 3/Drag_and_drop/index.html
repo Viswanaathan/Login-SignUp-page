@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Drag_and_drop/style.css">
+    <script defer src="/Drag_and_drop/script.js"></script>
+    <title>Drag and Drop</title>
+</head>
+<body>
+    <div class="add_task">
+        <input type="text" placeholder="Enter new task...">
+        <button type="submit">Add</button>
+    </div>
+    <div class="big_container">
+        <div class="tasks">
+        <h2>Tasks</h2>
+<div class="task" draggable="true" id="task1">Task 1</div>
+<div class="task" draggable="true" id="task2">Task 2</div>
+<div class="task" draggable="true" id="task3">Task 3</div>
+
+
+    </div>
+    <div class="doing" id="doing">
+        <h2>Doing</h2>
+    </div>
+    <div class="done" id="done">
+        <h2>Done</h2>
+    </div>
+    </div>
+</body>
+</html>

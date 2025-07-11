@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 30px;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  padding: 10px;
+  margin: 15px auto;
+  width: 60%;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#a1 {
+  background-color: #d1e7dd;
+  color: #0f5132;
+}
+
+#a2 {
+  background-color: #f8d7da;
+  color: #842029;
+}

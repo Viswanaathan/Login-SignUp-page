@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="input" autocomplete="off">
+        <div id="output"></div>
+        <div class="icon_holder">
+            <button id="H"><box-icon name='history' color="white"></box-icon></button>
+            <div id="Content"></div>
+            <Button id="C"><box-icon name='message-square-x' color="rgb(5, 249, 5)"></box-icon></Button>
+        </div>
+        <br><hr><br>
+        <div class="button_panel">
+            <div class="inner1">
+                <button id="Clear">C</button>
+                <button id="n7">7</button>
+                <button id="n4">4</button>
+                <button id="n1">1</button>
+                <button id="P/N">+/-</button>
+            </div>
+            <div class="inner2">
+                <button id="bracket">()</button>
+                <button id="n8">8</button>
+                <button id="n5">5</button>
+                <button id="n2">2</button>
+                <button id="n0">0</button>
+            </div>
+            <div class="inner3">
+                <button id="percentage">%</button>
+                <button id="n9">9</button>
+                <button id="n6">6</button>
+                <button id="n3">3</button>
+                <button id="decimal">.</button>
+            </div>
+            <div class="inner4">
+                <button id="divide">/</button>
+                <button id="multiply">*</button>
+                <button id="subtract">-</button>
+                <button id="Add">+</button>
+                <button id="Equals">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
