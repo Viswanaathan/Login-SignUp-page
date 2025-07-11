@@ -1,0 +1,95 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #e0f7fa, #f1f8e9);
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #37474f;
+  font-size: 32px;
+  text-shadow: 1px 1px 2px #cfd8dc;
+}
+
+form {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+select, input[type="number"], button {
+  padding: 10px 14px;
+  margin: 0 5px;
+  border-radius: 8px;
+  border: 1px solid #b0bec5;
+  font-size: 15px;
+  background-color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #c5e1a5;
+  cursor: pointer;
+  box-shadow: 0 0 8px rgba(197, 225, 165, 0.6);
+}
+
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.header {
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 15px;
+  color: white;
+  background-color: #607d8b;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.header:nth-child(1) {
+  background-color: #ef5350;
+}
+.header:nth-child(7) {
+  background-color: #26a69a;
+}
+
+.day {
+  border: 1px solid #cfd8dc;
+  padding: 12px;
+  min-height: 80px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #455a64;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.day:hover {
+  background-color: #e3f2fd;
+  transform: scale(1.02);
+}
+
+.day-number {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #1e88e5;
+}
+
+.day input[type="checkbox"] {
+  align-self: flex-end;
+  transform: scale(1.3);
+  cursor: pointer;
+  accent-color: #43a047;
+}
